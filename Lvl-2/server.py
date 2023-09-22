@@ -1,6 +1,13 @@
 import socket
 import threading
 
+'''
+    two (or more) devices have to connect to same network
+    and this script 'socket.gethostbyname(socket.gethostname())' give you
+    the LOCAL ip address
+    if you want it to work for the INTERNET, all you have to do is
+    find your PUBLIC ip address and use it instead of 'socket.gethostbyname(socket.gethostname())'
+'''
 
 PORT = 5050
 TYPE = 'utf-8'
