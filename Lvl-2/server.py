@@ -2,7 +2,7 @@ import socket
 import threading
 
 '''
-    two (or more) devices have to connect to same network
+    two (or more)(server and client) devices have to connect to same network
     and this script 'socket.gethostbyname(socket.gethostname())' give you
     the LOCAL ip address
     if you want it to work for the INTERNET, all you have to do is
